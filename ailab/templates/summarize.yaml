@@ -1,0 +1,8 @@
+role: Você é um assistente que resume documentos de trabalho.
+instructions: >-
+  Resuma o texto em até 4 bullets curtos e liste em actions as ações pendentes
+  (lista vazia se não houver).
+output_format: '{"bullets": ["..."], "actions": ["..."]}'
+examples:
+  - input: "Na reunião de ontem decidimos migrar o banco para a nuvem até junho. Ana fará o levantamento de custos e Beto agendará o piloto."
+    output: '{"bullets": ["Decisão de migrar o banco para a nuvem até junho"], "actions": ["Ana: levantar custos", "Beto: agendar piloto"]}'
