@@ -1,0 +1,152 @@
+[
+  {
+    "text": "Fui cobrado duas vezes no cartão",
+    "category": "billing",
+    "urgency": "medium"
+  },
+  {
+    "text": "A página de relatórios não carrega Preciso resolver hoje, é urgente!",
+    "category": "technical",
+    "urgency": "high"
+  },
+  {
+    "text": "Quero trocar o e-mail da conta",
+    "category": "account",
+    "urgency": "medium"
+  },
+  {
+    "text": "Vocês têm parceria para revendedores? Preciso resolver hoje, é urgente!",
+    "category": "other",
+    "urgency": "high"
+  },
+  {
+    "text": "Fui cobrado duas vezes no cartão Preciso resolver hoje, é urgente!",
+    "category": "billing",
+    "urgency": "high"
+  },
+  {
+    "text": "Não consigo enviar arquivos, dá erro 500",
+    "category": "technical",
+    "urgency": "medium"
+  },
+  {
+    "text": "Quero trocar o e-mail da conta Preciso resolver hoje, é urgente!",
+    "category": "account",
+    "urgency": "high"
+  },
+  {
+    "text": "Onde encontro a política de privacidade? Preciso resolver hoje, é urgente!",
+    "category": "other",
+    "urgency": "high"
+  },
+  {
+    "text": "Quero o estorno da fatura de abril Não é urgente.",
+    "category": "billing",
+    "urgency": "low"
+  },
+  {
+    "text": "A página de relatórios não carrega Preciso resolver hoje, é urgente!",
+    "category": "technical",
+    "urgency": "high"
+  },
+  {
+    "text": "Como excluo meu perfil? Preciso resolver hoje, é urgente!",
+    "category": "account",
+    "urgency": "high"
+  },
+  {
+    "text": "Onde encontro a política de privacidade? Não é urgente.",
+    "category": "other",
+    "urgency": "low"
+  },
+  {
+    "text": "O boleto veio com valor errado Preciso resolver hoje, é urgente!",
+    "category": "billing",
+    "urgency": "high"
+  },
+  {
+    "text": "O sistema está lento desde ontem Não é urgente.",
+    "category": "technical",
+    "urgency": "low"
+  },
+  {
+    "text": "Esqueci minha senha e o e-mail não chega",
+    "category": "account",
+    "urgency": "medium"
+  },
+  {
+    "text": "Gostaria de elogiar o atendimento de ontem",
+    "category": "other",
+    "urgency": "medium"
+  },
+  {
+    "text": "Fui cobrado duas vezes no cartão",
+    "category": "billing",
+    "urgency": "medium"
+  },
+  {
+    "text": "Não consigo enviar arquivos, dá erro 500 Preciso resolver hoje, é urgente!",
+    "category": "technical",
+    "urgency": "high"
+  },
+  {
+    "text": "Quero trocar o e-mail da conta Não é urgente.",
+    "category": "account",
+    "urgency": "low"
+  },
+  {
+    "text": "Gostaria de elogiar o atendimento de ontem",
+    "category": "other",
+    "urgency": "medium"
+  },
+  {
+    "text": "O boleto veio com valor errado Não é urgente.",
+    "category": "billing",
+    "urgency": "low"
+  },
+  {
+    "text": "A página de relatórios não carrega",
+    "category": "technical",
+    "urgency": "medium"
+  },
+  {
+    "text": "Como excluo meu perfil?",
+    "category": "account",
+    "urgency": "medium"
+  },
+  {
+    "text": "Qual o horário de atendimento? Preciso resolver hoje, é urgente!",
+    "category": "other",
+    "urgency": "high"
+  },
+  {
+    "text": "Minha assinatura foi renovada sem aviso Não é urgente.",
+    "category": "billing",
+    "urgency": "low"
+  },
+  {
+    "text": "Não consigo enviar arquivos, dá erro 500 Preciso resolver hoje, é urgente!",
+    "category": "technical",
+    "urgency": "high"
+  },
+  {
+    "text": "Quero trocar o e-mail da conta Não é urgente.",
+    "category": "account",
+    "urgency": "low"
+  },
+  {
+    "text": "Onde encontro a política de privacidade? Preciso resolver hoje, é urgente!",
+    "category": "other",
+    "urgency": "high"
+  },
+  {
+    "text": "Quero o estorno da fatura de março Preciso resolver hoje, é urgente!",
+    "category": "billing",
+    "urgency": "high"
+  },
+  {
+    "text": "O sistema está lento desde ontem",
+    "category": "technical",
+    "urgency": "medium"
+  }
+]
