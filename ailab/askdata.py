@@ -7,7 +7,14 @@ from ailab.sqlguard import validate_select
 SCHEMA_HELP = """Tabelas SQLite:
 runs(id, ts, automation, model, variant, ok, manual_seconds, actual_seconds)
 bench(id, ts, task, model, variant, case_id, correct, valid, seconds)
-ok/correct/valid são 0 ou 1. automation: triage, extract, summarize."""
+ok/correct/valid são 0 ou 1. automation: triage, extract, summarize.
+Tempo economizado = manual_seconds - actual_seconds (some com SUM). Acerto = AVG(correct).
+
+Exemplos:
+P: Quantas horas foram economizadas por automação?
+SQL: SELECT automation, SUM(manual_seconds - actual_seconds) / 3600.0 AS horas FROM runs GROUP BY automation ORDER BY horas DESC
+P: Qual variante de prompt acerta mais?
+SQL: SELECT variant, AVG(correct) AS acerto FROM bench GROUP BY variant ORDER BY acerto DESC"""
 
 
 def _extract_sql(text):

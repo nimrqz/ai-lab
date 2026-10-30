@@ -48,7 +48,8 @@ with tab2:
             latencia_s=("seconds", "mean")).reset_index()
         st.dataframe(agg.style.format({"acerto": "{:.0%}", "formato_valido": "{:.0%}",
                                        "latencia_s": "{:.1f}"}), width="stretch")
-        st.bar_chart(agg.pivot(index="variant", columns="model", values="acerto"))
+        st.bar_chart(agg.pivot(index="variant", columns="model", values="acerto"), stack=False)
+        st.caption("Amostra pequena (12 casos por célula): use como indício, não como conclusão estatística.")
 
 with tab3:
     q = st.text_input("Pergunte algo sobre os dados", "Qual automação economizou mais tempo?")
