@@ -1,4 +1,4 @@
-# 🤖 ai-lab — IA aplicada, 100% local
+# ai-lab — IA aplicada, 100% local
 
 Prompts estruturados, benchmark de LLMs, automações com horas economizadas medidas e um dashboard onde você pergunta aos dados em linguagem natural. **Sem API key, sem nuvem, sem dados reais**: tudo roda em CPU via [Ollama](https://ollama.com).
 

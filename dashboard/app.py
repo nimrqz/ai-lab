@@ -13,8 +13,8 @@ from ailab.db import connect
 
 DB = "data/results.db"
 connect(DB).close()
-st.set_page_config(page_title="ai-lab", page_icon="🤖", layout="wide")
-st.title("🤖 ai-lab — IA aplicada, 100% local")
+st.set_page_config(page_title="ai-lab", layout="wide")
+st.title("ai-lab — IA aplicada, 100% local")
 st.caption("Automações com LLM rodando em CPU via Ollama. Sem API key, sem dados reais.")
 
 conn = sqlite3.connect(DB)
@@ -22,7 +22,7 @@ runs = pd.read_sql_query("select * from runs", conn)
 bench = pd.read_sql_query("select * from bench", conn)
 conn.close()
 
-tab1, tab2, tab3 = st.tabs(["⏱️ Horas economizadas", "🧪 Benchmark de prompts", "💬 Pergunte aos dados"])
+tab1, tab2, tab3 = st.tabs(["Horas economizadas", "Benchmark de prompts", "Pergunte aos dados"])
 
 with tab1:
     if runs.empty:
